@@ -1,0 +1,177 @@
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'); 
+  }
+
+
+:root{
+    --color-primary-dark:#011C44;
+    --color-primary-light: #2B7FFF;
+    --color:#ffffff;
+    --color-dark: #4A4A4A; 
+}
+
+/* Base */
+body{
+color: var(--color-primary-dark);
+font-family: 'Roboto' , sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: normal;
+
+}
+address{
+    font-style: normal;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Button */
+.button{ 
+    color: #ffffff;
+    border-radius: 32px;
+    border: 2px solid var(--color-primary-light);
+    background-color: var(--color-primary-light);
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    padding: 16px 32px;
+
+
+}
+.button:hover{
+    color: #011C44;
+    background-color: transparent;
+}
+
+
+/* Link */
+.link{
+    color: var(--color-primary-dark);
+
+}
+.link:hover{
+    font-weight: 700;
+    color: var(--color-primary-light);
+
+}
+
+
+/* title */
+
+.title{
+    color: var(--color-primary-light);
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    text-transform: capitalize;
+}
+/* Section 1  */
+.logo-text{
+font-size: 12px;
+line-height: 18px;
+color: var(--color-dark);
+
+}
+/* Section title */
+
+.section-title{
+    color: var(--color-primary-dark);
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    line-height: normal;
+    font-weight: 700;
+
+
+}
+
+.section-title .accent{
+    color: var(--color-primary-light);
+}
+
+
+
+
+
+
+
+
+/* Section 2 */
+
+.section-title .accent-beauty{
+  color: var(--color-primary-light);  
+  text-transform: capitalize;
+}
+
+.about-us-text{
+    color: var(--color-primary-dark);
+    font-size: 22px;
+    line-height: 38px;
+
+}
+.about-us-text .about-us-accent{
+    font-weight: 600;
+}
+
+    
+
+
+/* Section 3 */
+
+.why-us-text{
+    color: #000;
+    line-height: 24px;
+    
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--color-primary-dark);
+}
+
+.footer-link{
+    font-size: 16px;
+    color: #ffffff;
+
+}
+.footer-link:hover{
+    color: var(--color-primary-light);
+    font-weight: 700;
+}
+
+.address-link{
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.address-link:hover{
+    color: var(--color-primary-light);
+    font-weight: 700;
+
+}
+.address-copyright{
+    font-size: 13px;
+    color: #747272;
+    
+}
+
+
+
+
